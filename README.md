@@ -21,12 +21,12 @@ This script retrieves subdomains for a given domain using the certificate transp
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/subdomain-finder.git
-   cd subdomain-finder
+   git clone https://github.com/aungsanoo-usa/crt.sh.git
+   cd crt.sh
    ```
 2. Ensure the script is executable:
    ```bash
-   chmod +x subdomain-finder.sh
+   chmod +x crt.sh
    ```
 
 ## Usage
@@ -34,7 +34,7 @@ This script retrieves subdomains for a given domain using the certificate transp
 Run the script with a domain name as the input.
 
 ```bash
-DOMAIN=example.com ./subdomain-finder.sh
+DOMAIN=example.com ./crt.sh
 ```
 
 ### Explanation:
@@ -48,7 +48,7 @@ DOMAIN=example.com ./subdomain-finder.sh
 ## Example
 
 ```bash
-DOMAIN=example.com ./subdomain-finder.sh
+DOMAIN=example.com ./crt.sh
 ```
 
 Output:
@@ -64,14 +64,6 @@ Saved file: `example.com_subdomains.txt`
 
 - The script depends on the format of [crt.sh](https://crt.sh). If their website structure changes, the script might need updates.
 - Only works for domains with subdomains listed in certificate transparency logs.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
-## Contributing
-
-Pull requests are welcome! Please open an issue first to discuss any major changes.
 
 ## Disclaimer
 
